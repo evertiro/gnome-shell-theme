@@ -68,9 +68,9 @@ r
  ```
  sudo apt remove system76-pop-gtk-theme
  sudo make uninstall
- sudo rm -rf /usr/share/themes/{Pop,Pop-Eta,Pop-Nokto,Pop-Nokto-Eta}
- rm -rf ~/.local/share/themes/{Pop,Pop-Eta,Pop-Nokto,Pop-Nokto-Eta}
- rm -rf ~/.themes/{Pop,Pop-Eta,Pop-Nokto,Pop-Nokto-Eta}
+ sudo rm -rf /usr/share/themes/Pop{,-dark{,-slim},-light{,-slim},-slim{,-dark,-light}}
+ rm -rf ~/.local/share/themes/Pop{,-dark{,-slim},-light{,-slim},-slim{,-dark,-light}}
+ rm -rf ~/.themes/Pop{,-dark{,-slim},-light{,-slim},-slim{,-dark,-light}}
  ```
 
 2. Install build dependencies
